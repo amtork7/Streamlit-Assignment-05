@@ -23,10 +23,10 @@ st.markdown("""
 student_name = st.text_input("Student Name")
 
 # Widget 2-5: Number Inputs
-mathematics = st.number_input("📘 Mathematics Score", min_value=0, max_value=100, value=0)
-science = st.number_input("🔬 Science Score", min_value=0, max_value=100, value=0)
-english = st.number_input("📖 English Score", min_value=0, max_value=100, value=0)
-history = st.number_input("🏛️ History Score", min_value=0, max_value=100, value=0)
+mathematics = st.number_input("📘 Mathematics Score", min_value=0, max_value=100, value=50)
+science = st.number_input("🔬 Science Score", min_value=0, max_value=100, value=50)
+english = st.number_input("📖 English Score", min_value=0, max_value=100, value=50)
+history = st.number_input("🏛️ History Score", min_value=0, max_value=100, value=50)
 
 # Widget 6: Radio Button
 grading_scale = st.radio(
